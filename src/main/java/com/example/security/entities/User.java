@@ -3,7 +3,7 @@ Spring Security: Spring Security + REST + JWT
 Александр Фисунов
 */
 
-package com.example.security.entites;
+package com.example.security.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;

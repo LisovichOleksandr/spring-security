@@ -6,7 +6,7 @@ Spring Security: Spring Security + REST + JWT
 // Для роботы с пользователями
 package com.example.security.repositories;
 
-import com.example.security.entites.User;
+import com.example.security.entities.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

@@ -4,7 +4,7 @@ Spring Security: Spring Security + REST + JWT
 */
 
 // Начинаем с ролей потому что ЮЗЕРЫ на ролях завязаны
-package com.example.security.entites;
+package com.example.security.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;

@@ -5,7 +5,7 @@ Spring Security: Spring Security + REST + JWT
 
 package com.example.security.repositories;
 
-import com.example.security.entites.Role;
+import com.example.security.entities.Role;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;
