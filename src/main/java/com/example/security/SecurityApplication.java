@@ -1,3 +1,8 @@
+/* 13 November 2024
+Spring Security: Spring Security + REST + JWT
+Александр Фисунов
+*/
+
 package com.example.security;
 
 import org.springframework.boot.SpringApplication;
