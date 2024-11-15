@@ -4,9 +4,9 @@ Spring Security: Spring Security + REST + JWT
 */
 
 // Для роботы с пользователями
-package com.example.security.repositories;
+package com.example.security_ed.repositories;
 
-import com.example.security.entities.User;
+import com.example.security_ed.entities.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
@@ -14,7 +14,7 @@ import java.util.Optional;
 
 @Repository
 public interface UserRepository extends CrudRepository<User, Long> {
-    Optional<User> findByUserName(String username);
+    Optional<User> findByUsername(String username);
 }
 
 // На етом у наc готовые сущности и готовы репозитории

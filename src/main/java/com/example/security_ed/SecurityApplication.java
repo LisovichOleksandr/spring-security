@@ -3,7 +3,7 @@ Spring Security: Spring Security + REST + JWT
 Александр Фисунов
 */
 
-package com.example.security;
+package com.example.security_ed;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,3 +16,5 @@ public class SecurityApplication {
 	}
 
 }
+
+// Делаем Role

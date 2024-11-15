@@ -3,7 +3,7 @@ Spring Security: Spring Security + REST + JWT
 Александр Фисунов
 */
 
-package com.example.security.controllers;
+package com.example.security_ed.controllers;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

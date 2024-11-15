@@ -1,8 +1,8 @@
-package com.example.security.services;
+package com.example.security_ed.services;
 
-import com.example.security.entities.User;
-import com.example.security.repositories.RoleRepository;
-import com.example.security.repositories.UserRepository;
+import com.example.security_ed.entities.User;
+import com.example.security_ed.repositories.RoleRepository;
+import com.example.security_ed.repositories.UserRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 @Service
 @RequiredArgsConstructor
 public class UserService implements UserDetailsService {
-    // UserRepository, RoleRepository Ето у нас БИНЫ нам их нужно заинжектить. нам их нужно заинжектить
+    // UserRepository, RoleRepository Ето у нас БИНЫ нам их нужно заинжектить.
     // писать сетеры или кастомний конструктор не хочатся, поетому напишим что ето final поля и ЛМБОК
     // @RequiredArgsConstructor згенерит для всех ФИНАЛ полей конструктор
     private final UserRepository userRepository;
@@ -28,7 +28,7 @@ public class UserService implements UserDetailsService {
 
     // для начала напишым обертку для метода репозитория
     public Optional<User> findByUsername(String username){
-        return userRepository.findByUserName(username);
+        return userRepository.findByUsername(username);
     }
 
     @Override

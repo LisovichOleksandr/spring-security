@@ -4,7 +4,7 @@ Spring Security: Spring Security + REST + JWT
 */
 
 // Начинаем с ролей потому что ЮЗЕРЫ на ролях завязаны
-package com.example.security.entities;
+package com.example.security_ed.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -21,3 +21,9 @@ public class Role {
     @Column(name = "name")
     private String name;
 }
+
+/* В ролях ентіті дата і тейбл
+* два поля ай-ді і ім'я
+* GenerationType.IDENTITY
+* @GeneratedValue стратегия
+*  */
